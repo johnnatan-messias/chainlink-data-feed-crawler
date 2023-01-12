@@ -11,12 +11,12 @@ This code shows how to gather prices from the [Chainlink Data Feed](https://data
 The Jupyter notebook code is available [here](./chainlink-data-feed.ipynb).
 
 <img src="./images/chainlink_comp_to_usd.png" width="650">
+
 ## Ask a Question
 
 ---
 
-- For reporting bugs please use the [chainlink-data-feed-crawler
-/issues](https://github.com/johnnatan-messias/chainlink-data-feed-crawler/issues) page.
+- For reporting bugs please use the [chainlink-data-feed-crawler/issues](https://github.com/johnnatan-messias/chainlink-data-feed-crawler/issues) page.
 
 In case of any issue, please feel free to contact me at johnme@mpi-sws.org
 
