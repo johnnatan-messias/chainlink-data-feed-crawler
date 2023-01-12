@@ -2,13 +2,15 @@
 
 This code shows how to gather prices from the [Chainlink Data Feed](https://data.chain.link).
 
-
-
 ## What's New
+
 ----------
 
 - COMP / USD support
 
+The Jupyter notebook code is available [here](./chainlink-data-feed.ipynb).
+
+<img src="./images/chainlink_comp_to_usd.png" width="650">
 ## Ask a Question
 
 ---
