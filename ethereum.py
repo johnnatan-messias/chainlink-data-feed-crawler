@@ -93,10 +93,12 @@ def get_events(contract_event_function, start_block, end_block, batch_size=5000,
     return event_list
 
 
-def get_all_events_from_contract(contract, start_block, end_block, batch_size=5000, max_workers=20):
+def get_all_events_from_contract(contract, start_block, end_block, batch_size=5000, max_workers=20, events=None):
     # Get all events data from a contract
     contract_events = dict()
-    for event in contract.events:
+    if not events:
+        events = contract.events
+    for event in events:
         contract_events[event.event_name] = get_events(contract_event_function=contract.events[event.event_name],
                                                        start_block=start_block, end_block=end_block,
                                                        batch_size=batch_size, max_workers=max_workers)
